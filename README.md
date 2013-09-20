@@ -1,6 +1,6 @@
 # fuegito
 
-Just a tiny that builds arbitrary burn down charts.
+Just a tiny app that builds arbitrary burn down charts.
 
 ## Prerequisites
 
