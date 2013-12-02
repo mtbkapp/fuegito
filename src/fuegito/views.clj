@@ -1,8 +1,6 @@
 (ns fuegito.views
   (:require [net.cgrand.enlive-html :refer :all]))
 
-
-
 (deftemplate page "page.html" 
   [body]
   [:#content] (content body))

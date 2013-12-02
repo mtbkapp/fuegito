@@ -3,7 +3,8 @@
 		<div class="container">
 			<h1>Fuegito</h1>
 			<p>Something for making burn down charts.</p>
-		</div>
+        </div>
+        <a href="/create" class="btn btn-primary btn-large">Make Chart</a>
 	</div>
 </div>
 
@@ -17,27 +18,33 @@
 		<input type="text" id="title" name="title" class="form-control" />
 	</div>
 
-	<div class="form-group">
-		<label for="units">Units: </label>
-		<input type="text" id="units" name="units" class="form-control" />
-	</div>
 
 	<div class="form-group">
-		<label for="start">Starting Value: </label>
-		<input type="text" id="start" name="start" class="form-control" />
+		<label for="start-value">Starting Value: </label>
+		<input type="text" id="start-value" name="start-value" class="form-control" />
 	</div>
 	
 	<div class="form-group">
-		<label for="goal">Goal Value: </label>
-		<input type="text" id="goal" name="goal" class="form-control" />
+		<label for="goal-value">Goal Value: </label>
+		<input type="text" id="goal-value" name="goal-value" class="form-control" />
 	</div>
 
 	<div class="form-group">
-		<label for="end-by">Goal End Time: </label>
-		<input type="text" id="end-by" name="end-by" class="form-control" />
+		<label for="units">Units: </label>
+		<input type="text" id="units" name="units" class="form-control" />
+    </div>
+
+	<div class="form-group">
+		<label for="start-date">Start Date: </label>
+		<input type="date" id="start-date" name="start-date" class="form-control" />
+    </div>
+
+	<div class="form-group">
+		<label for="goal-date">Goal Date: </label>
+		<input type="date" id="goal-date" name="goal-date" class="form-control" />
 	</div>
 
-	<input type="submit" class="btn btn-default" value="Create" />
+	<input type="submit" class="btn btn-primary" value="Create" />
 </form>
 
 

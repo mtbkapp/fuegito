@@ -11,9 +11,6 @@
   (mg/connect-via-uri! uri)
   (mg/set-db! (mg/get-db "fuegito")))
 
-(defn throws?
-  [f & args]
-  (try (apply f args) false (catch Exception e true)))
 
 (defn parse-int
   [s]
