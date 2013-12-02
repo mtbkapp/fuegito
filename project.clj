@@ -6,6 +6,5 @@
                  [enlive "1.1.4"]
                  [com.novemberain/monger "1.5.0"]]
   :plugins [[lein-ring "0.8.5"]]
-  :ring {:handler fuegito.handler/app}
-  :profiles
-  {:dev {:dependencies [[ring-mock "0.1.5"]]}})
+  :ring {:handler fuegito.handler/app :nrepl {:start? true}}
+  :profiles {:dev {:dependencies [[ring-mock "0.1.5"]]}})

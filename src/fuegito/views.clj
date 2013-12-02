@@ -1,10 +1,11 @@
 (ns fuegito.views
-  (require [net.cgrand.enlive-html :refer :all]))
+  (:require [net.cgrand.enlive-html :refer :all]))
+
 
 
 (deftemplate page "page.html" 
   [body]
-  [:body] (content body))
+  [:#content] (content body))
 
 (defsnippet home-body "bits.html" [:#home]
   [])
